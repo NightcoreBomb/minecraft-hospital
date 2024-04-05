@@ -1,0 +1,126 @@
+.flexbox{
+    height: 600px;
+    font-size: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: "Minecraft 1.1";
+    padding-top: 25px;
+    font-weight: bold;
+    background-image: url("online-3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:left center;
+    /*background-size: 100% 100%;*/
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+.flexbox a{
+    background: white;
+    border-radius: 40px;
+    padding-inline: 30px;
+    padding-bottom: 15px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+
+}
+.bytpuck{
+    width: 50px;
+    height: 50px;
+    padding-bottom: 10px;
+}
+.main_menu{
+    font-family: "Minecraft 1.1";
+    margin-top: 10px;
+}
+.main_menu a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+.main_menu a:hover{
+    color: #1371dd;
+}
+.scale{
+    color: black;
+    transition: font-size 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.scale:hover{
+    font-size: 150%;
+    color: white;
+}
+
+.main_text{
+    font-size: 85px;
+    font-family: "Minecraft 1.1";
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.flexbox a img {
+    position: relative;
+    top: 25px; /* Змініть значення відповідно до вашого бажаного зміщення */
+    width: 120px; height: 120px;
+    padding-top: 4px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    /*border: 4px solid #1371dd;*/
+}
+
+.box1{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: space-around;
+    font-family: "Minecraft 1.1";
+    height: 300px;
+    margin-top: 100px;
+    transition: all 0.3s ease-in-out;
+
+}
+.box1 img{
+    width: 700px; height: 500px;
+    margin: 40px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.big_text{
+    margin-top: -20px;
+    font-size: 65px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.content {
+    opacity: 0; /* Початкова прозорість: елемент прихований */
+    animation: fadeIn 2s ease forwards; /* Використовуємо анімацію з назвою fadeIn */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Початок анімації: елемент прихований */
+    }
+    to {
+        opacity: 1; /* Кінець анімації: елемент повністю видимий */
+    }
+}
+ .box1 img:hover{
+     transform: scale(1.1);
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+ }
+
+.mid_text{
+    font-size: 35px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: -30px;
+}
